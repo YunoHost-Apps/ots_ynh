@@ -50,6 +50,7 @@ ram.runtime = "500M"
     amd64.sha256 = "7be2782a01103a2dddf328e8004b2b2533265acd210eb4d1cccdc64342930bd7"
     arm64.url = "https://github.com/Luzifer/ots/releases/download/v1.21.5/ots_linux_arm64.tgz"
     arm64.sha256 = "2ea956b87f8a244cc968de6dae380efe142cc880fc0e0cbdcdd39acf4d980230"
+    in_subdir = false
 
     autoupdate.strategy = "latest_github_release"
 
