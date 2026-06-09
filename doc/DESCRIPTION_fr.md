@@ -1,4 +1,7 @@
-Le secret est chiffré avec un algorithme AES 256 bits symétrique dans le navigateur avant d'être envoyé au serveur. Une URL contenant l'identifiant du secret et le mot de passe est ensuite générée. Le mot de passe n'est jamais transmis au serveur, qui ne sera donc jamais en mesure de déchiffrer les secrets qu'il délivre. Le secret est également supprimé dès la première lecture.
+Le secret est chiffré avec un algorithme AES 256 bits dans le navigateur avant d'être envoyé au serveur.  
+Une URL contenant l'identifiant du secret et le mot de passe est ensuite générée.  
+Le mot de passe n'est jamais transmis au serveur, qui ne sera donc jamais en mesure de déchiffrer les secrets qu'il délivre.  
+Le secret est également supprimé dès la première lecture.
 
 ## Fonctionnalités
 
