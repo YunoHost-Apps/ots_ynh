@@ -56,4 +56,3 @@ ram.runtime = "500M"
     main.auth_header = false
 
     [resources.ports]
-    
