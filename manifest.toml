@@ -37,7 +37,6 @@ ram.runtime = "500M"
     type = "group"
     default = "visitors"
 
-
 [resources]
     [resources.sources]
 
@@ -49,9 +48,6 @@ ram.runtime = "500M"
     in_subdir = false
 
     autoupdate.strategy = "latest_github_release"
-
-    [resources.system_user]
-	allow_email = true
     
     [resources.install_dir]
 
