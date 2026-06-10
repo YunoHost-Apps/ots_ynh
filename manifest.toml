@@ -4,7 +4,7 @@ packaging_format = 2
 id = "ots"
 name = "ots"
 description.en = "One time secret sharing platform with symetric encryption in the browser"
-description.fr = "Partage de mot de passe crypté dans le navigateur"
+description.fr = "Partage de secrets chiffrés à usage unique dans le navigateur"
 version = "1.21.5~ynh1"
 
 maintainers = ["otm33GH"]
