@@ -47,8 +47,8 @@ ram.runtime = "500M"
     arm64.sha256 = "2ea956b87f8a244cc968de6dae380efe142cc880fc0e0cbdcdd39acf4d980230"
     in_subdir = false
 
-    autoupdate.asset.amd64 = "ots_linux_amd64.tar.gz"
-    autoupdate.asset.arm64 = "ots_linux_arm64.tar.gz"
+    autoupdate.asset.amd64 = "ots_linux_amd64.tgz"
+    autoupdate.asset.arm64 = "ots_linux_arm64.tgz"
     autoupdate.strategy = "latest_github_release"
     
     [resources.system_user]
