@@ -9,4 +9,4 @@ Le secret est également supprimé dès la première lecture.
 - Le serveur ne reçoit jamais le secret en clair.
 - Le secret est supprimé à la première lecture.
 
-**:warning: Les secrets sont stockés en mémoire. Ils sont perdus au redémarrage du serveur, lors d'une mise à jour, ou d'une restauration.**
+**:warning: Les secrets sont stockés en mémoire. Ils sont perdus au redémarrage du service, lors d'une mise à jour, ou d'une restauration.**
