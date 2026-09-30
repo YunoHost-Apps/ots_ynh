@@ -5,7 +5,7 @@ id = "ots"
 name = "ots"
 description.en = "One time secret sharing platform with symetric encryption in the browser"
 description.fr = "Partage de secrets chiffrés à usage unique dans le navigateur"
-version = "1.21.9~ynh1"
+version = "1.22.0~ynh1"
 
 maintainers = ["otm33GH"]
 
@@ -41,10 +41,10 @@ ram.runtime = "500M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/Luzifer/ots/releases/download/v1.21.9/ots_linux_amd64.tgz"
-    amd64.sha256 = "f609f401ae6c31acae4e753f3b9f3bcb8631836cc7f01d84b6d8d10ed4e925f7"
-    arm64.url = "https://github.com/Luzifer/ots/releases/download/v1.21.9/ots_linux_arm64.tgz"
-    arm64.sha256 = "7b12a19c585df3f8cbd132ad13d2f3da6437785bbb3238d18ba86218130165b0"
+    amd64.url = "https://github.com/Luzifer/ots/releases/download/v1.22.0/ots_linux_amd64.tgz"
+    amd64.sha256 = "36f4bb4c54a62a7800a065382d16ad75b0738d7cad21a80233b4127fd7fa1a9f"
+    arm64.url = "https://github.com/Luzifer/ots/releases/download/v1.22.0/ots_linux_arm64.tgz"
+    arm64.sha256 = "ae2698c5f7a628dd7596cf8dfb2d3965abeca10e223f02daa201e31a32cacfb9"
     in_subdir = false
 
     autoupdate.asset.amd64 = "ots_linux_amd64.tgz"
